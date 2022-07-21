@@ -8,21 +8,21 @@ body {
     color: #ffffff;
     font-family: "ttf";
     height: 100%;
-}
-
-#main {
-    color: #ffffff;    
     margin: 10px auto;
     width: auto;
     min-width: 300px;
-    max-width: 300px;
+    max-width: 700px;
     border-radius: 10px;
 }
 
-h1 {
+#title {
     text-align: center;
 }
 
+#links {
+    margin: 0 auto;
+    width: 200px;
+}
 pre {
     font-family: "ttf";
 }
@@ -86,6 +86,21 @@ svg {
     pointer-events: none;
 }
 
-#links a:link, #links a:visited, #links a:hover, #links a:active {
-	color:#bbbbbb;
+a:link, a:visited, a:hover, a:active {
+    color:#bbbbbb;
+}
+
+#back {
+    text-align: center;
+}
+
+#back a:link, #back a:visited, #back a:hover, #back a:active {
+    color:#bbbbbb;
+    text-decoration: none;
+}
+
+.litem {
+    padding-left: 10px;
+    border-left: 5px solid #bbbbbb;
+    border-radius: 5px;
 }
