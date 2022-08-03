@@ -1,4 +1,4 @@
-// https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement#events=
+// https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement#events
 const pb = document.getElementById('buttons');
 const range = document.querySelector(".volume input[type=range]");
 const barHoverBox = document.querySelector(".volume .bar-hoverbox");
